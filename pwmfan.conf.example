@@ -1,0 +1,41 @@
+# Configuration file for pwmfan
+# Commented values are used by default. Uncomment them to make changes.
+
+# If not zero, enable verbose logging
+#verbose=0
+# If not zero, never actually touch the PWM device
+#dry=0
+
+# If not zero, enter degrees in fahrenheit instead of celsius
+#fahrenheit=0
+
+# Lower temperature limit
+#mintemp=50 #C, or 122F
+# Upper temperature limit
+#maxtemp=75 #C, or 167F
+# Disable fan at this many degrees below the lower temperature limit
+#hysteresis=5 #C, or 9F
+
+# Lower duty cycle in percents
+#minduty=60
+# Upper duty cycle in percents
+#maxduty=100
+
+# When fan changes from disabled to enabled, start with this duty cycle
+#startduty=80
+#   for this many seconds
+#starttime=1
+
+# Interval between check cycles, in seconds
+#interval=5
+# On start up, enable the fan for the given number of seconds
+#spin=0
+# If not zero, keep fan spinning at the lower duty cycle limit instead of disabling
+#idle=0
+
+# PWM period in nanoseconds
+#period=40000
+# PWM chip number of the fan driver
+#pwmchip=0
+# PWM device number of the fan driver
+#pwm=0

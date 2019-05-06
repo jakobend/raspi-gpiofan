@@ -1,0 +1,22 @@
+# Configuration file for gpiofan
+# Commented values are used by default. Uncomment them to make changes.
+
+# If not zero, enable verbose logging
+#verbose=0
+# If not zero, never actually touch the PWM device
+#dry=0
+
+# If not zero, enter degrees in fahrenheit instead of celsius
+#fahrenheit=0
+
+# Enable fan at this temperature
+#treshold=50 #C, or 158F
+# Disable fan at this many degrees below treshold
+#hysteresis=5 #C, or 9F
+
+# Interval between check cycles, in seconds
+#interval=5
+# On start up, enable the fan for the given number of seconds
+#spin=0
+# Pin number of the fan driver
+#pin=18
